@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'geologistic'`, () => {
+  it(`should have as title 'logistics'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('geologistic');
+    expect(app.title).toEqual('logistics');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('geologistic app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('logistics app is running!');
   });
 });
